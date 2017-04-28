@@ -1,0 +1,497 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+margin:0;
+padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{
+	border:0;
+}
+address,caption,site,code,dfn,em,strong,th,var{
+	font-style:normal;
+	font-weight:normal;
+	
+}
+caption,th{
+	text-align:left;
+}
+ol,ul{
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+.clear{
+	clear:both;
+}
+#navBar{
+	
+	background-color:white;
+	/*margin:0 auto;*/
+	text-decoration:none;
+	font-family:"Clear Sans";
+}
+
+.nav li, #footer li{
+	padding-top: 40px;
+	padding-left:45px;
+	float:left;	
+	
+}
+#logo{
+	float:left;
+}
+#header{
+	width:100%;
+	height:85px;
+	background-color:#08918E;
+}
+#header2{
+	width:100%;
+	height:50px;
+	background-color:#7cc062;
+}
+.container{
+	margin:0 auto;
+	width:960px;
+}
+#logo{
+	padding-top:15px;
+}
+
+li a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold
+} 
+li a:hover{
+	text-decoration:underline;
+}
+#search{
+	float:left;
+	
+}
+#featured_categories a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold
+}
+#button{
+	padding-top:18px;
+	float:left;
+}
+#billboard{
+	width:100%;
+	height:301px;
+	background-color:#EEF5FA;
+}
+
+#heading{
+	padding-top:30px;
+	font-size:25px;
+	text-align: center;
+	font-family:"Clear Sans";
+	font-weight:bold;
+	color:#00a3d8;
+}
+#how-to-order{
+	padding-top:20px;
+	text-align:center;
+}
+#heading2{
+	padding-top:40px;
+	font-size:25px;
+	text-align: center;
+	font-family:"Clear Sans";
+	font-weight:bold;
+	color:#00a3d8;
+}
+#heading3{
+	padding-top:40px;
+	font-size:25px;
+	text-align: center;
+	font-family:"Clear Sans";
+	font-weight:bold;
+	color:#00a3d8;
+}
+#content{
+	padding-top:15px;
+	text-align:center;
+	font-family:"Clear Sans";
+}
+.slick-dots{
+	//margin-left:45%;
+}
+.carousel{
+	width:84%;
+	text-align:center;
+	z-index:1;
+	background-color:white;
+	padding-top:30px;
+	margin:0 auto;
+	height:130px;		
+}
+#testimonials{
+	width:100%;
+	text-align:center;
+	font-family:"Clear Sans";
+	padding-top:10px;
+	font-size:1.5em;
+}
+
+#heading4{
+	padding-top:40px;
+	font-size:25px;
+	text-align: center;
+	font-family:"Clear Sans";
+	font-weight:bold;
+	color:#00a3d8;
+}
+#featured_categories{
+	height:700px;
+}
+#category1{
+	float:left;
+	padding-top:40px;
+}
+#title1{
+	font-family:"Clear Sans";
+	padding-left:50px;
+	font-weight:bold;
+	padding-top:15px;
+	font-size:20px;
+}
+
+#category2{
+	float:left;
+	padding-top:40px;
+	padding-left:70px;
+}
+#title2{
+	font-family:"Clear Sans";
+	padding-left:100px;
+	font-weight:bold;
+	padding-top:15px;
+	font-size:20px;
+}
+#category3{
+	float:left;
+	padding-top:40px;
+	padding-left:70px;
+}
+#title3{
+	font-family:"Clear Sans";
+	padding-left:70px;
+	font-weight:bold;
+	padding-top:15px;
+	font-size:20px;
+}
+
+#category4{
+	float:left;
+	padding-top:40px;
+	
+}
+#title4{
+	font-family:"Clear Sans";
+	color:black;
+	padding-left:65px;
+	font-weight:bold;
+	padding-top:15px;
+	font-size:20px;
+}
+#footer{
+	
+	background-color:#08918E;
+	height:100px;
+	width:100%;
+}
+
+#copyright{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+#footer li{
+	padding-top: 20px;
+	padding-left:60px;
+	float:left;	
+	
+}
+
+#footer_navBar{
+	font-family:"Clear Sans";
+	color:#545454;
+	width:1060px;
+	padding-left:120px;
+	margin:0 auto;
+	}
+@media screen and (min-width: 421px)	
+{
+	#header-mobile{
+		display:none;
+	}
+	#search-mobile{
+	display:none;
+	}
+	#go-button{
+		display:none;
+	}
+	#up-mobile{
+	display:none;
+}
+#billboard-mobile{
+	display:none;
+}
+#content-mobile{
+	display:none;
+}
+#choose-mobile{
+	display:none;
+}
+#fc-mobile{
+	display:none;
+}
+
+#footer-mobile{
+	display:none;	
+}
+#helpline-mobile{
+	display:none;
+}
+	
+}
+	
+/* For mobile view*/
+@media screen and (max-width: 420px) { 
+#header{
+	display:none;
+}
+.container{
+	display:none;
+}
+#logo{
+	display:none;
+}
+
+#header2{
+	display:none;
+}
+#search{
+	display:none;
+	
+}
+#billboard-mobile{
+	background-color:#EEF5FA;
+	height:190px;
+	width:100%;
+	margin:0 auto;
+}
+#button{
+	display:none;
+}
+#billboard{
+display:none;
+}
+
+#heading{
+	display:none;
+}
+#how-to-order{
+	display:none;
+}
+#heading2{
+display:none;
+}
+#heading3{
+	display:none;
+}
+#content{
+	display:none;
+}
+.slick-dots{
+	display:none;
+}
+.carousel{
+	display:none;		
+}
+#testimonials{
+	display:none;
+}
+
+#heading4{
+	display:none;
+}
+#featured_categories{
+	display:none;
+}
+#category1{
+	display:none;
+}
+#title1{
+	display:none;
+}
+
+#category2{
+display:none;
+}
+#title2{
+	display:none;
+}
+#category3{
+	display:none;
+}
+#title3{
+	display:none;
+}
+
+#category4{
+	display:none;
+	
+}
+#title4{
+	display:none;
+}
+#footer{
+	
+	display:none;
+}
+
+#copyright{
+	display:none;
+}
+#footer li{
+	display:none;
+	}
+#heading-mobile{
+	color:#00A3D8;
+	text-align:center;
+	font-size:22px;
+	padding-top:14px;
+	font-weight:bold;
+}
+#content-mobile{
+	padding-top:10px;
+	text-align:center;
+}
+#footer_navBar{
+	display:none;
+	}
+#header-mobile{
+	padding-top:10px;
+	height:90px;
+	width:100%;
+	background-color:#08918E;
+}
+.container-mobile{
+	width:90%;
+	font-family:"Clear Sans";
+	margin:0 auto;
+}
+#first-part{
+	
+}
+#logo-mobile{
+	float:left;
+	height:20px;
+		
+}
+#first-two-part{
+	float:right;
+}
+
+#part-two{
+	width:100%;
+	padding-top:16px;	
+}
+
+.nav-mobile li{
+	padding-right:15px;
+	float:left;
+	color:white;
+	font-weight:900;
+	font-size:15px;
+}
+#header2-mobile{
+	background-color:#7CC062;	
+	width:100%;
+	height:40px;
+}
+#search-mobile{
+	padding-top:10px;
+	float:left;
+	display:inline;
+}
+#go-button{
+	padding-top:10px;
+	display:inline;
+}
+
+#up-mobile{
+	padding-top:10px;
+	padding-left:20px;
+	display:inline;
+}
+#billboard-mobile{
+	text-align:center;	
+}
+#otc{
+	text-align:center;
+	padding-top:30px;
+}
+#diabetes{
+	text-align:center;
+	padding-top:30px;
+}
+#personalCare{
+	text-align:center;
+	padding-top:30px;
+}
+#respiratoryCare{
+	text-align:center;
+	padding-top:30px;
+}
+#fc-mobile a{
+	text-decoration:none;
+	color:black;
+	font-weight:bold
+}
+
+#footer-mobile{
+	text-align:center;
+	margin-top:30px;
+	background-color:#08918E;
+	height:50px;	
+}
+#helpline-mobile{
+	width:100%;
+	text-align:center;
+}
+}
+.dropdownMenu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentMenu {
+    display: none;
+    position: absolute;
+    background-color: #08918E;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px 16px;
+    z-index: 1;
+}
+
+.dropdownMenu:hover .dropdown-contentMenu {
+    display: block; 
+}

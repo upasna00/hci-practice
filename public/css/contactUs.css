@@ -1,0 +1,323 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td{
+margin:0;
+padding:0;
+}
+table{
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img{
+	border:0;
+}
+address,caption,site,code,dfn,em,strong,th,var{
+	font-style:normal;
+	font-weight:normal;
+	
+}
+caption,th{
+	text-align:left;
+}
+ol,ul{
+	list-style:none;
+}
+h1,h2,h3,h4,h5,h6{
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after{
+	content:'';
+}
+abbr,acronym{
+	border:0;
+}
+.clear{
+	clear:both;
+}
+#navBar{
+	
+	background-color:white;
+	/*margin:0 auto;*/
+	text-decoration:none;
+	font-family:"Clear Sans";
+}
+
+.nav li, #footer li{
+	padding-top: 40px;
+	padding-left:45px;
+	float:left;	
+	
+}
+#logo{
+	float:left;
+}
+#header{
+	width:100%;
+	height:85px;
+	background-color:#08918E;
+}
+#header2{
+	width:100%;
+	height:50px;
+	background-color:#7cc062;
+}
+.container{
+	margin:0 auto;
+	width:960px;
+	font-family:"Clear Sans";
+}
+#logo{
+	padding-top:15px;
+}
+
+li a{
+	text-decoration:none;
+	color:white;
+	font-weight:bold
+} 
+#search{
+	float:left;
+}
+#button{
+	padding-top:18px;
+	float:left;
+}
+#heading-contactUs{
+	font-size:25px;
+	font-weight:bold;
+	color:#00A3D8;
+	padding-top:20px;
+}
+
+#footer{
+	
+	background-color:#08918E;
+	height:100px;
+	width:100%;
+}
+
+#copyright{
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+}
+#footer li{
+	padding-top: 20px;
+	padding-left:60px;
+	float:left;	
+	color:white;
+}
+
+#footer_navBar{
+	font-family:"Clear Sans";
+	color:#545454;
+	width:1060px;
+	padding-left:120px;
+	margin:0 auto;
+}
+@media screen and (min-width: 421px)	
+{
+	#heading-mobile{
+	color:#00A3D8;
+	text-align:center;
+	font-size:22px;
+	padding-top:14px;
+	font-weight:bold;
+}
+#content-mobile{
+	padding-top:10px;
+	text-align:center;
+}
+
+#header-mobile{
+	display:none;
+}
+.container-mobile{
+	display:none;
+}
+#logo-mobile{
+	display:none;
+		
+}
+#first-two-part{
+	display:none;
+}
+
+#part-two{
+	display:none;	
+}
+
+.nav-mobile li{
+	display:none;
+}
+#header2-mobile{
+	display:none;
+}
+#search-mobile{
+	display:none;
+}
+#go-button{
+	display:none;
+}
+
+#up-mobile{
+	display:none;
+}
+#footer-mobile{
+	display:none;	
+}
+
+}
+@media screen and (max-width: 420px) {
+	#heading-mobile{
+	color:#00A3D8;
+	text-align:center;
+	font-size:22px;
+	padding-top:14px;
+	font-weight:bold;
+}
+#content-mobile{
+	padding-top:10px;
+	text-align:center;
+}
+
+#header-mobile{
+	padding-top:10px;
+	height:90px;
+	width:100%;
+	background-color:#08918E;
+}
+.container-mobile{
+	width:90%;
+	font-family:"Clear Sans";
+	margin:0 auto;
+}
+#logo-mobile{
+	float:left;
+	height:20px;
+		
+}
+#first-two-part{
+	float:right;
+}
+
+#part-two{
+	width:100%;
+	padding-top:16px;	
+}
+
+.nav-mobile li{
+	padding-right:15px;
+	float:left;
+	color:white;
+	font-weight:900;
+	font-size:15px;
+}
+#header2-mobile{
+	background-color:#7CC062;	
+	width:100%;
+	height:40px;
+}
+#search-mobile{
+	padding-top:10px;
+	float:left;
+	display:inline;
+}
+#go-button{
+	padding-top:10px;
+	display:inline;
+}
+
+#up-mobile{
+	padding-top:10px;
+	padding-left:20px;
+	display:inline;
+}
+
+#navBar{
+	
+	display:none;
+}
+
+.nav li, #footer li{
+	display:none;
+}
+#logo{
+	display:none;
+}
+#header{
+display:none;
+}
+#header2{
+	display:none;
+}
+.container{
+	display:none;
+}
+#logo{
+	display:none;
+}
+
+li a{
+	display:none;
+} 
+#search{
+	display:none;
+}
+#button{
+	display:none;
+}
+#heading-contactUs{
+	display:none;
+}
+
+#footer{
+	display:none;
+}
+
+#copyright{
+	display:none;
+}
+#footer li{
+display:none;
+}
+
+#footer_navBar{
+display:none;
+}
+#contactUs-heading{
+	color:#00A3D9;
+	padding-top:10px;
+	font-size:17px;
+	font-weight:bold;
+	
+}
+#footer-mobile{
+	text-align:center;
+	margin-top:80px;
+	background-color:#08918E;
+	height:50px;	
+}
+li a:hover{
+	text-decoration:underline;
+}
+
+}
+.dropdownMenu {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-contentMenu {
+    display: none;
+    position: absolute;
+    background-color: #08918E;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 20px 16px;
+    z-index: 1;
+}
+
+.dropdownMenu:hover .dropdown-contentMenu {
+    display: block; 
+}
+	
